@@ -1,6 +1,6 @@
 {
-    "challengeName": "",
-    "challengeDescription": "",
+    "challengeName": "The Hackentine Security Sweep",
+    "challengeDescription": "In this challenge, you will be taken to the InfoSecIITR website and presented with an Administrator Verification Form. To access the hidden flag, you'll need to enter the correct Hackentine administrator credentials into the form. Remember, this is an official request and compliance is mandatory.Can you decipher the credentials and successfully verify your security level? If you do, you will be rewarded with the flag. Good luck, and happy hacking!",
     "minPoints": 100,
     "maxPoints": 200,
     "category": "reversing"

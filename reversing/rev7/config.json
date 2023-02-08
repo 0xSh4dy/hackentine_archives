@@ -1,6 +1,6 @@
 {
-    "challengeName": "",
-    "challengeDescription": "",
+    "challengeName": "The Ultimate Hack Challenge",
+    "challengeDescription": "Welcome to the Ultimate Hack challenge! This is not for the faint of heart, as you'll be up against the toughest security measures to uncover a message from a notorious hacker, Victorygod.Do you have what it takes to outsmart the system and claim the flag? Only the most skilled and determined hackers will succeed in this grueling test of hacking prowess. Good luck, and happy hacking!",
     "minPoints": 400,
     "maxPoints": 200,
     "category": "reversing"

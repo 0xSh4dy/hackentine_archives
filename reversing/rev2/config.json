@@ -1,6 +1,6 @@
 {
-    "challengeName": "",
-    "challengeDescription": "",
+    "challengeName": "The Hackentine Heart Hunt",
+    "challengeDescription": "Welcome to the Hackentine! In this challenge, you will be tasked with finding the hidden flag on our website. The flag is a secret message, carefully guarded by our systems. To access the flag, you'll need to demonstrate your hacking skills and outwit our defenses.So put on your thinking cap and get ready to put your skills to the test. The journey to the flag won't be easy, but the satisfaction of finding it will be sweet. Good luck, and happy hacking!",
     "minPoints": 50,
     "maxPoints": 150,
     "category": "reversing"

@@ -1,6 +1,6 @@
 {
-    "challengeName": "",
-    "challengeDescription": "",
+    "challengeName": "Love Notes from Victorygod",
+    "challengeDescription": "Welcome to the Hackentine challenge! Upon entering the challenge, you'll be faced with a 'Decode' button. Pressing the button will unlock a series of love notes sent by your favorite hacker, Victorygod.Can you decode the messages and uncover the love story? The flag is waiting for those with the skills to unlock it. Good luck, and happy hacking!",
     "minPoints": 100,
     "maxPoints": 250,
     "category": "reversing"
