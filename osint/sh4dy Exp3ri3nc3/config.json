@@ -1,0 +1,7 @@
+{
+    "challengeName":"sh4dy Exp3ri3nc3",
+    "challengeDescription" :"Commercial sites on the web sometimes can be sh4dy, you never know whois watching you",
+    "minPoints": 40,
+    "maxPoints": 100,
+    "category":"OSINT"
+}
