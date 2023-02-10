@@ -3,5 +3,6 @@
     "challengeDescription" :"If a couple is meant to be, they will eventually reunite. RSA can assist in making that happen.",
     "minPoints":50,
     "maxPoints":150,
-    "category":"Cryptography"
+    "category":"Cryptography",
+    "authorName": "c4pt41n"
 }
