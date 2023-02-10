@@ -1,0 +1,8 @@
+{
+    "challengeName": "A Mystery for Sherlock and You",
+    "challengeDescription": "Irene Adler has written a love letter to Sherlock Holmes, but she has encrypted the message. As Sherlock is occupied with his work, he has asked for your assistance in decrypting it. During the decryption process, you realized that you need Irene's favorite number. When you inquired about this to Sherlock, he responded with the letter 'H.",
+    "minPoints": 10,
+    "maxPoints": 50,
+    "category": "Cryptography",
+    "authorName": "c4pt41n"
+}
