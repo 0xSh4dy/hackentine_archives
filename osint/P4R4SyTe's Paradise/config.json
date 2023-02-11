@@ -1,7 +1,9 @@
 {
+"author":"P4S4SyTe",
 "challengeName":"P4R4SyTe's Paradise",
-"challengeDescription" :"P4R4SyTe has been lonely all his life. His pursuit for love has never been succesful but this Hackentine's week he must conquer. But he can't do all this alone, he needs your help to overcome his melancholy and finally win over his lady about whom he has left a small note for you, which says: \" In Belmont is a lady richly left and she is fair and fairer than that word of wondrous virtues, sometimes from her eyes I did receive fair speechless messages. Her name is ******\" . Find her name and leetify the vowels with numbers and with caps off to look it up in some top social media platforms and help P4R4SyTe find the love of his life.",
+"challengeDescription" :"P4R4SyTe has been lonely all his life. His pursuit for love has never been succesful but this Hackentine's week he must conquer. But he can't do all this alone, he needs your help to overcome his melancholy and finally win over his lady about whom he has left a small note for you, which says: \" In Belmont is a lady richly left and she is fair and fairer than that word, of wondrous virtues, sometimes from her eyes I did receive fair speechless messages. Her name is ******\" . Find her name and leetify the vowels with numbers and with caps off to look it up in some top social media platforms and help P4R4SyTe find the love of his life.",
 "minPoints": 40,
 "maxPoints": 100,
-"category":"OSINT"
+"category":"OSINT",
+"flag":"Vulntine{P4R4SyTe_I_L0v3_Y0u}"
 }
