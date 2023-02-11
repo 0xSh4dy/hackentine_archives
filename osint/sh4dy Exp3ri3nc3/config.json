@@ -1,7 +1,9 @@
 {
+    "author":"P4R4SyTe",
     "challengeName":"sh4dy Exp3ri3nc3",
-    "challengeDescription" :"Commercial sites on the web sometimes can be sh4dy, you never know whois watching you",
+    "challengeDescription" :"Commercial sites on the web sometimes can be sh4dy, you never know who is LOOKing UPon you",
     "minPoints": 40,
     "maxPoints": 100,
-    "category":"OSINT"
+    "category":"OSINT",
+    "flag":"Vulntine{sh4dy_looksUp_fr0m_th3_5h4d3s}"
 }
