@@ -1,0 +1,51 @@
+.hacking-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./background.jpg');
+    background-size: cover;
+}
+
+.login-page {
+    background-image: 'url(../hacker-background.jpg)';
+    background-size: 'cover';
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.main-content {
+    padding: 1rem;
+    text-align: center;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.intro,
+.description {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}

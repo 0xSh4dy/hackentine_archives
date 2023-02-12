@@ -1,0 +1,9 @@
+{
+    "challengeName": "Jail break 2",
+    "challengeDescription": "Is your ex a boa or a python.",
+    "minPoints": 50,
+    "maxPoints": 200,
+    "category": "misc", 
+    "flag": "Vulntine{7h15_pyj41l_w45_4nn0y1n6_ju57_l1k3_my_3x}",
+    "author": "ph1ne4s"
+}
