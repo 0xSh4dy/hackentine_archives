@@ -2,8 +2,8 @@
     "author":"P4R4SyTe",
     "challengeName":"sh4dy Exp3ri3nc3",
     "challengeDescription" :"Commercial sites on the web sometimes can be sh4dy, you never know who is LOOKing UPon you",
-    "minPoints": 60,
-    "maxPoints": 150,
+    "minPoints": 80,
+    "maxPoints": 200,
     "category":"OSINT",
     "flag":"Vulntine{sh4dy_looksUp_fr0m_th3_5h4d3s}"
 }
