@@ -3,5 +3,7 @@
 "challengeDescription" :"Are they significant enough?",
 "minPoints":50,
 "maxPoints":150,
-"category":"misc_forensics"
+"flag":"Vulntine{h0p3_y0u_f1nd_y0ur_7h3_0n3}",
+"category":"misc_forensics",
+"author":"d4v1d"
 }
