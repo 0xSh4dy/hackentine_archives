@@ -3,5 +3,7 @@
     "challengeDescription": "Welcome to the registration page for the Hackentine Championship! To proceed, you'll need to enter the correct invitation code. Only those with the correct code will be granted access to the championship and the hidden flag within.So dig deep and put your hacking skills to the test. Can you crack the code and claim your place in the championship? If you do, the flag will be revealed: a symbol of your hacking prowess. Good luck, and happy hacking!",
     "minPoints": 100,
     "maxPoints": 250,
-    "category": "reversing"
+    "category": "reversing",
+    "author" : "VictoryGod",
+    "flag" : "Vulntine{4_53Cr3T_4dM1r3R_53nD5_r0535_T0_1nF053c}"
 }
