@@ -3,5 +3,7 @@
     "challengeDescription": "Welcome to the Hack Horror Show, where the bravest and most skilled hackers face their greatest fear. The challenge ahead is a test of skill and fortitude, as you'll be pitted against a labyrinth of security measures that will send shivers down your spine.Do you have what it takes to unravel the mysteries of the dark web and uncover the hidden message from the most notorious hacker of our time? Only those who dare to face their fears and embrace the unknown will emerge victorious. Good luck, and happy hacking...if you dare.",
     "minPoints": 300,
     "maxPoints": 600,
-    "category": "reversing"
+    "category": "reversing",
+    "author" : "VictoryGod",
+    "flag" : "Vulntine{4_M4tCh_M4d3_1N_cYb3RR_h34V3n}"
 }
