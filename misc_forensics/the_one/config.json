@@ -1,0 +1,7 @@
+{
+"challengeName":"ecstasy",
+"challengeDescription" :"Are they significant enough?",
+"minPoints":50,
+"maxPoints":150,
+"category":"misc_forensics"
+}
