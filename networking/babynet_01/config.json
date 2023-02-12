@@ -1,0 +1,9 @@
+{
+    "challengeName": "babynet_01",
+    "challengeDescription": "Ah, the sweet mystery of Wireshark, the packets will dance in front of your eyes, inviting you to unravel their secrets",
+    "minPoints": 50,
+    "maxPoints": 150,
+    "category": "networking",
+    "author": "sh4dy",
+    "flag": "VULNTINE{w1r3sh4rk_s3np41}"
+}

@@ -1,0 +1,9 @@
+{
+    "challengeName": "babynet_02",
+    "challengeDescription": "Step into the world of File Transfer Protocol and let the rhythm of packets guide your path.",
+    "minPoints": 50,
+    "maxPoints": 150,
+    "category": "networking",
+    "author": "sh4dy",
+    "flag": "VULNTINE{ftp_1s_cool_a1n7_it?}"
+}
