@@ -1,0 +1,9 @@
+{
+"challengeName":"miserable",
+"challengeDescription" :"easier to get the flag over here than to ask them out :)",
+"minPoints":50,
+"maxPoints":150,
+"flag":"Vulntine{n0_lov3_i5_b3TT3r_th4n_0ne_s1ded_m1serabl3_lov3}",
+"category":"misc_forensics",
+"author":"d4v1d"
+}
