@@ -1,0 +1,7 @@
+version: '2'
+services:
+  web:
+    container_name: ninja_jinja
+    ports:
+      - 8002:8002
+    build: .

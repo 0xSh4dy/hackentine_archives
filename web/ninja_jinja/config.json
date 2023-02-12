@@ -1,0 +1,9 @@
+{
+    "challengeName": "ninja_jinja",
+    "challengeDescription": "In this special challenge, you'll show your love for Jinja2 by exploiting a vulnerability in a Flask app and retrieving a love letter (aka the flag).",
+    "minPoints": 50,
+    "maxPoints": 350,
+    "category": "web",
+    "author": "sh4dy",
+    "flag": "Vulntine{Jinja2_template_injection_rocks!}"
+}
