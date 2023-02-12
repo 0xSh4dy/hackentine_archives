@@ -1,0 +1,9 @@
+{
+    "challengeName": "the_infosec_club",
+    "challengeDescription": "Crack open the cookie jar and capture the flag! ",
+    "minPoints": 50,
+    "maxPoints": 150,
+    "category": "web",
+    "author": "sh4dy",
+    "flag": "VULNTINE{c00k1e_m4n1pul4t10n_1s_th3_k3y}"
+}

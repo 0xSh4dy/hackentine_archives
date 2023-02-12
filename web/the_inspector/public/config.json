@@ -1,0 +1,9 @@
+{
+    "challengeName": "the_inspector",
+    "challengeDescription": "0m3g4's React-development-mode has left the door open for a daring hacker to swoop in and claim the flag. Will you be the one to uncover Tit4n's secrets and take control?",
+    "minPoints": 50,
+    "maxPoints": 150,
+    "category": "web",
+    "author": "sh4dy",
+    "flag": "VULNTINE{H4ck3r_El1te_2023}"
+}
