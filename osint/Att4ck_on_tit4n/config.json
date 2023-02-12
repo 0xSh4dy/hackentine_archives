@@ -1,0 +1,9 @@
+{
+    "author":"P4R4SyTe",
+    "challengeName":"Att4ck_on_tit4n",
+    "challengeDescription" :"tit4ns have attacked Shiganshina. But mysterioulsy one tit4n seems to be a good one, fighting for humanity. Look for answers who can it be!!!",
+    "minPoints": 80,
+    "maxPoints": 200,
+    "category":"OSINT",
+    "flag":"Vulntine{few_tit4ns_work_for_humanity}"
+}
