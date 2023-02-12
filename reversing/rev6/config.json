@@ -3,5 +3,7 @@
     "challengeDes4cription": "Welcome to the Hackentine challenge! In this challenge, you'll need to use your coding skills and unwrap a series of clues to uncover the hidden message.The flag awaits those who can solve the mystery and decipher the message. Good luck, and happy hacking!",
     "minPoints": 150,
     "maxPoints": 350,
-    "category": "reversing"
+    "category": "reversing",
+    "author" : "VictoryGod",
+    "flag" : "Vulntine{C0d1N6_4nD_cUdDl35}"
 }
