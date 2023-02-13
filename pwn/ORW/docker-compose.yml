@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  orw:
+    build: .
+    ports:
+      - 8000:5000
+    privileged: true
