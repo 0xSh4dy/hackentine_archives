@@ -25,3 +25,8 @@ ID|Name|Category|Value|Type|State|
 24|babynet_02|networking|150|dynamic|hidden|
 25|ezz pwn|pwn|350|dynamic|hidden|
 26|ORW|pwn|500|dynamic|hidden|
+27|Simple Overflow|pwn|200|dynamic|hidden|
+28|Love Overflow|pwn|300|dynamic|hidden|
+29|Love Notes|pwn|400|dynamic|hidden|
+30|Ret2Ex|600|pwn|dynamic|hidden|
+31|CreamPIE|pwn|1000|dynamic|hidden|
