@@ -23,5 +23,5 @@ ID|Name|Category|Value|Type|State|
 22|babynet_01|networking|150|dynamic|hidden|
 23|W0rld_Rush_5|OSINT|250|dynamic|hidden|
 24|babynet_02|networking|150|dynamic|hidden|
-25|ezz pwn|pwn|300|dynamic|hidden|
+25|ezz pwn|pwn|350|dynamic|hidden|
 26|ORW|pwn|500|dynamic|hidden|
