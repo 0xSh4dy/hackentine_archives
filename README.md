@@ -12,7 +12,7 @@ ID|Name|Category|Value|Type|State|
 10|The Hackentine Secret InvitationQuest|reversing|250|dynamic|hidden| 
 11|Love Notes from Victorygod|reversing|300|dynamic|hidden|
 13|Love Code Craze|reversing|350|dynamic|hidden|
-14|The Ultimate|Hack|Challenge|reversing|400|dynamic|hidden|
+14|The Ultimate Hack Challenge|reversing|400|dynamic|hidden|
 15|The Hack Horror Show|reversing|600|dynamic|hidden|
 16|d4t3_n1ght|reversing|400|dynamic|hidden|
 17|RSA and the Power of Destiny|cryptography|150|dynamic|hidden|
