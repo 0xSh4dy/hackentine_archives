@@ -12,7 +12,7 @@ app.get("/",(req,res)=>{
     }
     else{
         if(user=="admin"){
-            res.send("VULNTINE{c00k1e_m4n1pul4t10n_1s_th3_k3y}");
+            res.send("Vulntine{c00k1e_m4n1pul4t10n_1s_th3_k3y}");
             return;
         }
     }
