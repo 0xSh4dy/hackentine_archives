@@ -1,9 +1,11 @@
 # hackentine-ctf-2023
 Hackentine-ctf-2023
-
+```
+ID 	Name 	Category 	Value 	Type 	State 
+ 
 1	P4R4SyTe's Paradise	OSINT	200	dynamic	hidden
  
-2	Jail Break 1	misc	350	dynamic	hidden
+2	Jail Break 1	misc_forensics	350	dynamic	hidden
  
 3	sh4dy Exp3ri3nc3	OSINT	200	dynamic	hidden
  
@@ -26,3 +28,20 @@ Hackentine-ctf-2023
 15	The Hack Horror Show	reversing	600	dynamic	hidden
  
 16	d4t3_n1ght	reversing	400	dynamic	hidden
+ 
+17	RSA and the Power of Destiny	cryptography	150	dynamic	hidden
+ 
+18	A Mystery for Sherlock and You	cryptography	50	dynamic	hidden
+ 
+19	Jail break 2	misc_forensics	200	dynamic	hidden
+ 
+20	miserable	misc_forensics	150	dynamic	hidden
+ 
+21	ecstasy	misc_forensics	150	dynamic	hidden
+ 
+22	babynet_01	networking	150	dynamic	hidden
+ 
+23	W0rld_Rush_5	OSINT	250	dynamic	hidden
+ 
+24	babynet_02	networking	150	dynamic	hidden
+```
