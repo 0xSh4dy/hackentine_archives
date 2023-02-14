@@ -1,0 +1,7 @@
+version: '2'
+services:
+  crypto:
+    container_name: aespopquiz
+    ports:
+      - 8034:8034
+    build: .
