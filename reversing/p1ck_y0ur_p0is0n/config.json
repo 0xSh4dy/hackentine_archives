@@ -1,0 +1,8 @@
+{
+    "challengeName": "p1ck_y0ur_p0is0n",
+    "flag" : "Vulntine{w3lc0m3_t0_th3_r3v_g4ng}",
+    "challengeDescription": "",
+    "minPoints": 50,
+    "maxPoints": 50,
+    "category": "reversing"
+}
