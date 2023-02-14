@@ -86,29 +86,29 @@ def pad(plaintext):
         padded += flag_p2[i]
         i += 1
     return padded[::-1]
-    
+   
+iv=urandom(16) 
 def encrypt(plaintext):
-    cipher = AES.new(key, AES.MODE_ECB, iv=urandom(16))
+    cipher = AES.new(key, AES.MODE_ECB)
     return cipher.encrypt(pad(plaintext))
 
-encrypted_flag = encrypt(flag_p2)
-print("Welcome to the quiz. Pass it to get a chance to go on a candle light dinner with me. Wink! Wink!")
-print("Actions: 1. Encrypt 2. Get flag part 3. Check flag part 4. Exit")
+encrypted_flag = encrypt(flag_p2.encode())
+print("Looks like you encountered a hurdle. Pass it to get a chance to go on a candle light dinner with me. Wink! Wink!")
+print("But lemme give you the encrypted version of a part of the flag in hex: "+encrypted_flag.hex())
+print("Actions: 1. Encrypt 2. Check flag part 3. Exit")
 while True:
     a = int(input("Enter action: "))
     if (a == 1):
         print("Enter the plaintext: ")
-        print("Here you go darling "+encrypt(input()))
+        print("Here you go darling "+encrypt(input()))        
     elif (a == 2):
-        print("Here you go darling "+encrypted_flag)
-    elif (a == 3):
-        flag_ch = input("Enter flag part to be verified: ")
+        flag_ch = input("Enter flag part to be verified(as ascii string only): ")
         if (flag_ch == flag_p2):
             print("Congrats! Lets move to the next level.")
             break
         else:
             print("Oops, that's not the right one. Try again")
-    elif (a == 4):
+    elif (a == 3):
         print("Looks like you are not interested. Bye!")
         exit(0)
     else:
