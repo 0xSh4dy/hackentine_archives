@@ -1,6 +1,6 @@
 {
     "challengeName": "The faster the better",
-    "challengeDescription": "Everyone wanted to go on a date with Roushi but she wanted an intellectual guy so she saaid that the dirst one to decrypt her messages would win",
+    "challengeDescription": "Everyone wanted to go on a date with Roushi but she wanted an intellectual guy so she said that the first one to decrypt her message would win",
     "minPoints":50,
     "maxPoints":150,
     "category":"Cryptography",
