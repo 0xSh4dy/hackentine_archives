@@ -9,7 +9,7 @@ m = n.bit_length() // (2 * e ** 2)
 pad1 = getRandomRange(0, (1 << m))
 pad2 = pad1 + (1 << m) - 69
 
-flag = b"f1n4lly_s0m30n3_d1d_i7"
+flag = b"redacted"
 M = bytes_to_long(flag)
 
 m1 = (M + pad1) % n
