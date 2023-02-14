@@ -15,8 +15,8 @@ ID|Name|Category|Value|Type|State|
 14|The Ultimate Hack Challenge|reversing|400|dynamic|hidden|
 15|The Hack Horror Show|reversing|600|dynamic|hidden|
 16|d4t3_n1ght|reversing|400|dynamic|hidden|
-17|RSA and the Power of Destiny|cryptography|150|dynamic|hidden|
-18|A Mystery for Sherlock and You	|cryptography|50|dynamic|hidden|
+17|RSA and the Power of Destiny|cryptography|300|dynamic|hidden|
+18|A Mystery for Sherlock and You|cryptography|150|dynamic|hidden|
 19|Jail break 2|misc_forensics|200|dynamic|hidden|
 20|miserable|misc_forensics|150|dynamic|hidden|
 21|ecstasy|misc_forensics|150|dynamic|hidden|
@@ -30,3 +30,11 @@ ID|Name|Category|Value|Type|State|
 29|Love Notes|pwn|400|dynamic|hidden|
 30|Ret2Ex|pwn|6000|dynamic|hidden|
 31|CreamPIE|pwn|1000|dynamic|hidden|
+32|W0rld_Rush_0|OSINT|250|dynamic|hidden|
+33|W0rld_Rush_1|OSINT|250|dynamic|hidden|
+34|W0rld_Rush_2|OSINT|250|dynamic|hidden|
+35|Easy poli|cryptography|150|dynamic|hidden|
+36|The faster the better|cryptography|150|dynamic|hidden|
+37|Breaking AES down|cryptography|150|dynamic|hidden|
+38|ORW|pwn|500|dynamic|hidden|
+39|ezz pwn|pwn|350|dynamic|hidden|
