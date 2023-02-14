@@ -1,0 +1,7 @@
+version: '2'
+services:
+  reversing:
+    build: .
+    container_name: firstchallrevbasic
+    ports:
+      - 8004:80
