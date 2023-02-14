@@ -38,3 +38,4 @@ ID|Name|Category|Value|Type|State|
 37|Breaking AES down|cryptography|150|dynamic|hidden|
 38|ORW|pwn|500|dynamic|hidden|
 39|ezz pwn|pwn|350|dynamic|hidden|
+40|t1r4m1su|reversing|250|dynamic|hidden|
