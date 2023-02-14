@@ -1,0 +1,9 @@
+{
+    "challengeName": "Breaking AES down",
+    "challengeDescription": "This valentine get ready to fall in love with AES",
+    "minPoints":50,
+    "maxPoints":150,
+    "category":"Cryptography",
+    "authorName": "m0n4ugh7y",
+    "flag":"Vulntine{k4h4_ch4l3_4pn1_d4t3_k3_l1y3_m3r1_j44n}"
+}

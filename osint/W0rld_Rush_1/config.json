@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"W0rld_Rush_1",
+    "challengeDescription" :"th3_f0x enjoyed a bowl of yummy ramen and took a picture of the restaurant. Find out which city he was in when he ate it. Flag format is Vulntine{cityname} , all smallcase letters with no underscores or spaces.",
+    "minPoints": 50,
+    "maxPoints": 250,
+    "category":"OSINT",
+    "flag":"Vulntine{lasvegas}"
+}

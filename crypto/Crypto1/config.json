@@ -4,5 +4,6 @@
     "minPoints":50,
     "maxPoints":150,
     "category":"Cryptography",
-    "authorName": "c4pt41n"
+    "authorName": "c4pt41n",
+    "flag": "Vulntine{D35t1n3d_p41r5_r3un1t3}"
 }

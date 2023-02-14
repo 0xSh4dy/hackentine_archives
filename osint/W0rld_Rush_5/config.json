@@ -1,0 +1,9 @@
+{
+    "author":"P4R4SyTe",
+    "challengeName":"W0rld_Rush_5",
+    "challengeDescription" :"InfoSecIITR's ancient Coffee machine is now stored safely in a Museum, but they don't know where. All they have is a picture of its Nearby Location. Give us the contact number of the Museum. If the contact number is +91 98-9897-9899, then the flag would be Vulntine{919898979899}",
+    "minPoints": 100,
+    "maxPoints": 250,
+    "category":"OSINT",
+    "flag":"Vulntine{81669465728}"
+}

@@ -1,0 +1,9 @@
+{
+    "challengeName": "The faster the better",
+    "challengeDescription": "Everyone wanted to go on a date with Roushi but she wanted an intellectual guy so she saaid that the dirst one to decrypt her messages would win",
+    "minPoints":50,
+    "maxPoints":150,
+    "category":"Cryptography",
+    "authorName": "m0n4ugh7y",
+    "flag":"Vulntine{f1n4lly_s0m30n3_d1d_i7}"
+}

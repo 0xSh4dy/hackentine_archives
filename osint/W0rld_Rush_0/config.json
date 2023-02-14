@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"W0rld_Rush_0",
+    "challengeDescription" :"SC4R stealthily listed Sin3point14's luxurious villa for sale, which is one of many properties the wealthy individual owns in various countries. Can you determine the location of this specific villa? Flag format: Vulntine{countryname}",
+    "minPoints": 50,
+    "maxPoints": 250,
+    "category":"OSINT",
+    "flag":"Vulntine{japan}"
+}

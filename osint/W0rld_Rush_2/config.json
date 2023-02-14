@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"W0rld_Rush_2",
+    "challengeDescription" :"Heisen is planning a trip to a well-known amusement park in the United States. He got a picture of it. Can you find out the name of the park?",
+    "minPoints": 50,
+    "maxPoints": 250,
+    "category":"OSINT",
+    "flag":"Vulntine{cedarpoint}"
+}
