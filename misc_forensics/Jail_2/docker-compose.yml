@@ -1,0 +1,7 @@
+version: '2'
+services:
+  misc:
+    container_name: jailbreak_2
+    ports:
+      - 8033:8033
+    build: .

@@ -7,70 +7,45 @@ print("As which type of cipher can AES be used as?")
 print("1. Block cipher")
 print("2. Stream cipher")
 print("3. Both")
-wrong = 0
-while(wrong < 3):
-    a = int(input("Enter your answer: "))
-    if (a == 1):
-        print("Correct! Lets move forward.")
-        break
-    else:
-        print("Wrong! Try again.")
-        wrong += 1
-    if (wrong == 3):
-        print("I don't think that you have done enough work. Bye!")
-        exit(0)
+if (a == 1):
+    print("Correct! Lets move forward.")
+else:
+    print("Wrong! I don't think that you have done enough work. Bye!")
+    exit(0)
 
 print("Which attack on AES involves hardware implementation of AES?")
 print("1. Differential cryptanalysis")
 print("2. Linear cryptanalysis")
 print("3. Side channel attack")
 print("4. Interpolation attack")
-wrong = 0
-while(wrong < 3):
-    a = int(input("Enter your answer: "))
-    if (a == 3):
-        print("Correct! Lets move forward.")
-        break
-    else:
-        print("Wrong! Try again.")
-        wrong += 1
-    if (wrong == 3):
-        print("I don't think that you have done enough work. Bye!")
-        exit(0)
+a = int(input("Enter your answer: "))
+if (a == 3):
+    print("Correct! Lets move forward.")
+else:
+    print("Wrong! I don't think that you have done enough work. Bye!")
+    exit(0)
         
 print("What are the two properties related to AES?")
 print("1. Dellusion and confusion")
 print("2. Confusion and diffusion")
 print("3. Diffusion and dellusion")
-wrong = 0
-while(wrong < 3):
-    a = int(input("Enter your answer: "))
-    if (a == 2):
-        print("Correct! Lets move forward.")
-        break
-    else:
-        print("Wrong! Try again.")
-        wrong += 1
-    if (wrong == 3):
-        print("I don't think that you have done enough work. Bye!")
-        exit(0)
+a = int(input("Enter your answer: "))
+if (a == 2):
+    print("Correct! Lets move forward.")
+else:
+    print("Wrong! I don't think that you have done enough work. Bye!")
+    exit(0)
 
 print("Which attack on AES reduced its security, although it was not a practical attack?")
 print("1. Coppersmith's attack")
 print("2. Biclique attack")
 print("3. Saturation attack")
-wrong = 0
-while(wrong < 3):
-    a = int(input("Enter your answer: "))
-    if (a == 2):
-        print("Correct! Lets move forward.")
-        break
-    else:
-        print("Wrong! Try again.")
-        wrong += 1
-    if (wrong == 3):
-        print("I don't think that you have done enough work. Bye!")
-        exit(0)
+a = int(input("Enter your answer: "))
+if (a == 2):
+    print("Correct! Lets move forward.")
+else:
+    print("Wrong! I don't think that you have done enough work. Bye!")
+    exit(0)
         
 print(f"Looks like you have done enough work. Here's a part of your flag: '{flag_p1}'")
 
@@ -86,29 +61,29 @@ def pad(plaintext):
         padded += flag_p2[i]
         i += 1
     return padded[::-1]
-    
+   
+iv=urandom(16) 
 def encrypt(plaintext):
-    cipher = AES.new(key, AES.MODE_ECB, iv=urandom(16))
+    cipher = AES.new(key, AES.MODE_ECB)
     return cipher.encrypt(pad(plaintext))
 
-encrypted_flag = encrypt(flag_p2)
-print("Welcome to the quiz. Pass it to get a chance to go on a candle light dinner with me. Wink! Wink!")
-print("Actions: 1. Encrypt 2. Get flag part 3. Check flag part 4. Exit")
+encrypted_flag = encrypt(flag_p2.encode())
+print("Looks like you encountered a hurdle. Pass it to get a chance to go on a candle light dinner with me. Wink! Wink!")
+print("But lemme give you the encrypted version of a part of the flag in hex: "+encrypted_flag.hex())
+print("Actions: 1. Encrypt 2. Check flag part 3. Exit")
 while True:
     a = int(input("Enter action: "))
     if (a == 1):
         print("Enter the plaintext: ")
-        print("Here you go darling "+encrypt(input()))
+        print("Here you go darling "+encrypt(input()))        
     elif (a == 2):
-        print("Here you go darling "+encrypted_flag)
-    elif (a == 3):
-        flag_ch = input("Enter flag part to be verified: ")
+        flag_ch = input("Enter flag part to be verified(as ascii string only): ")
         if (flag_ch == flag_p2):
             print("Congrats! Lets move to the next level.")
             break
         else:
             print("Oops, that's not the right one. Try again")
-    elif (a == 4):
+    elif (a == 3):
         print("Looks like you are not interested. Bye!")
         exit(0)
     else:

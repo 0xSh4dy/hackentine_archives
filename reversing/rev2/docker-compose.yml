@@ -1,0 +1,7 @@
+version: '2'
+services:
+  reversing:
+    build: .
+    container_name: rev2
+    ports:
+      - 8005:80

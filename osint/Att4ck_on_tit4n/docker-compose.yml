@@ -1,0 +1,7 @@
+version: '2'
+services:
+  osint:
+    container_name: attack_on_titan
+    ports:
+      - 8035:8035
+    build: .
