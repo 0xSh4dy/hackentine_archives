@@ -1,7 +1,7 @@
-version: "3.9"
+version: '2'
 services:
-  orw:
+  pwn:
     build: .
     ports:
-      - 8000:5000
-    privileged: true
+      - "8021:8021"
+    container_name: orw
