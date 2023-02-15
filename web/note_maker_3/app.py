@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, make_response, redirect,render_template_string
 import random
 import string
-from hashlib import sha256
 import os
+import subprocess
 
 notes_store = "notes/"
 app = Flask(__name__)
@@ -23,7 +23,7 @@ def get_notes(username):
 
 @app.route("/", methods=["GET", "POST"])
 def main():
-    username = request.cookies.get("note_user")
+    username = request.cookies.get("note_user_3")
     if username==None:
         return redirect("/register")
     if request.method == "POST":
@@ -44,28 +44,31 @@ def main():
 @app.route("/register", methods=["GET", "POST"])
 def register():
     try:
-        data = request.cookies["note_user"]
+        data = request.cookies["note_user_3"]
         return redirect("/")
     except Exception as e:
         if request.method == "POST":
             username = request.form["username"]
             resp = make_response(render_template("success.html"))
-            resp.set_cookie("note_user", username)
+            resp.set_cookie("note_user_3", username)
             return resp
         return render_template("register.html")
 
 
-@app.route("/notes",methods=["GET"])
-def render_note():
-    file = request.args["file"]
-    f = open(notes_store+file,"r")
-    data = f.read()
-    return data
+@app.route("/notes/<filename>",methods=["GET"])
+def render_note(filename):
+    filename = filename.replace("../","")
+    file_path = notes_store+filename
+    try:
+        data = subprocess.check_output(f"cat {file_path}",shell=True)
+        return data
+    except Exception as e:
+        return "Invalid file"
 
 @app.route("/logout",methods=["GET"])
 def logout():
     resp = make_response(render_template_string("Logged out"))
-    resp.set_cookie("note_user",'',expires=0)
+    resp.set_cookie("note_user_3",'',expires=0)
     return resp
 
-app.run("0.0.0.0", 8007, debug=True)
+app.run("0.0.0.0", 8009, debug=False)
