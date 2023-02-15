@@ -7,6 +7,7 @@ print("As which type of cipher can AES be used as?")
 print("1. Block cipher")
 print("2. Stream cipher")
 print("3. Both")
+a = int(input("Enter your answer: "))
 if (a == 1):
     print("Correct! Lets move forward.")
 else:
