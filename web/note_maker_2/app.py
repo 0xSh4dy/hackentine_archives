@@ -68,4 +68,4 @@ def logout():
     resp.set_cookie("note_user_2",'',expires=0)
     return resp
 
-app.run("0.0.0.0", 8008, debug=True)
+app.run("0.0.0.0", 8008, debug=False)
