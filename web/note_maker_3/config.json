@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"Note Maker 3",
+    "challengeDescription" :"7h3_b00g3ym4n put in significant effort to fix the LFI and path traversal bugs that were affecting his note making application, greatly enhancing its security. However, even with these fixes in place, tit4n, a highly proficient web exploitation specialist, was still able to uncover a new flaw that allowed him to abscond with the top secret flag.",
+    "minPoints": 50,
+    "maxPoints": 450,
+    "category":"Web Exploitation",
+    "flag":"Vulntine{4r3_s33_ee_aka_RCE}"
+}

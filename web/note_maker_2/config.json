@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"Note Maker 2",
+    "challengeDescription" :"7h3_b00g3ym4n has taken extra measures to secure his note maker application by moving the secrets to a highly protected location at /flag. Are you clever enough to retrieve the secrets and earn yourself everlasting glory?",
+    "minPoints": 50,
+    "maxPoints": 300,
+    "category":"Web Exploitation",
+    "flag":"Vulntine{d1r3c70ry_tr4v3rs4l_f7w_b011}"
+}
