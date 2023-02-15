@@ -39,3 +39,5 @@ ID|Name|Category|Value|Type|State|
 38|ORW|pwn|500|dynamic|hidden|
 39|ezz pwn|pwn|350|dynamic|hidden|
 40|t1r4m1su|reversing|250|dynamic|hidden|
+41|p1ck_y0ur_p0is0nreversing|reversing|100|dynamic|hidden|
+42|r3d_r0s3|reversing|450|dynamic|hidden|
