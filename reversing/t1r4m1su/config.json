@@ -1,0 +1,8 @@
+{
+    "challengeName": "t1r4m1su",
+    "flag": "Vulntime{b4lls_4nd_pyth0n}",
+    "challengeDescription": "",
+    "minPoints": 150,
+    "maxPoints": 350,
+    "category": "reversing"
+}
