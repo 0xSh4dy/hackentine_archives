@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"Note Maker 1",
+    "challengeDescription" :"You've discovered a hidden portal to the eternal world via a note maker application, but 7h3_b00g3ym4n has locked away the most valuable information in a secure location. Can you use your hacking skills to bypass his security and retrieve the flag?",
+    "minPoints": 50,
+    "maxPoints": 250,
+    "category":"Web Exploitation",
+    "flag":"Vulntine{LFI_IS_MY_FRIEND}"
+}

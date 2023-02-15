@@ -1,0 +1,7 @@
+version: '2'
+services:
+  hackentine:
+    build: .
+    ports:
+      - 8007:8007
+    container_name: note_maker_1

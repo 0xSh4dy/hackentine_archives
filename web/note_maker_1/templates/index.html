@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Note Maker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .note-form {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .note-form input[type="text"] {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .note-form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: 0;
+            cursor: pointer;
+        }
+
+        .note-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .note-list li {
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .note-list li p {
+            margin: 0;
+        }
+        #logout{
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            color: white;
+        }
+        #logout:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Note Maker</h1>
+        <h4 id="logout" onclick="logout()">Logout</h4>
+    </div>
+    <div class="container">
+        <form class="note-form" method="POST" action="/">
+            <input type="text" placeholder="Enter your note here" name="note" required>
+            <input type="submit" value="Save">
+        </form>
+        <ul class="note-list">
+            {% if notes|length >0 %}
+            <h1>Your Notes</h1>
+            {% endif %}
+            {% for note in notes %}
+            <p>
+                <a href="/notes?file={{note}}">{{note}}</a>
+            </p>
+            {% endfor %}
+        </ul>
+    </div>
+    <script>
+        function logout(){
+            fetch("/logout").then(r=>r.text()).then(()=>{
+                window.location.reload();
+            });
+        }
+    </script>
+</body>
+
+</html>
