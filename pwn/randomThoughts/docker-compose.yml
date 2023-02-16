@@ -1,0 +1,7 @@
+version: '2'
+services:
+  pwn:
+    build: .
+    ports:
+      - "8022:8022"
+    container_name: ezz_pwn
