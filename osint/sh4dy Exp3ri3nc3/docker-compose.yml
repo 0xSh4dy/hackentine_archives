@@ -1,0 +1,7 @@
+version: '2'
+services:
+  osint:
+    container_name: shady_experience
+    ports:
+      - 8010:80
+    build: .

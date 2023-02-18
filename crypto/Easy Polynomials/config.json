@@ -1,8 +1,8 @@
 {
     "challengeName": "Easy poli",
     "challengeDescription": "Can you do the lifting for me?",
-    "minPoints":50,
-    "maxPoints":150,
+    "minPoints":100,
+    "maxPoints":250,
     "category":"Cryptography",
     "authorName": "m0n4ugh7y",
     "flag":"Vulntine{p0lyn0m1al5_4r3_l0v3}"
