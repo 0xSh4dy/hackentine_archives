@@ -1,0 +1,10 @@
+{
+    "author":"P4S4SyTe",
+    "challengeName":"c4pt41n's V0y4g3",
+    "challengeDescription" :"c4pt41n has set sail in his ship to explore various cities all around the world. For you he has left images, puzzles, and secret texts to help you decipher his voyage path. All you have to do is take the first letter in CAPS of each city after identifying it. Then transform the 14 letter text you obtain using the following instructions:\n1. Leetify only the first vowel in the 14-letter text formed from the first letters of all the CITIES.\n2. Concatenate at the end == to the original string obtained after step 1\n3. Decode the text using a very popular & common cipher\n 4. Keeping the obtained text in CAPS wrap it in Vulntine{}",
+    "minPoints": 800,
+    "maxPoints": 1200,
+    "category":"OSINT",
+    "flag":"Vulntine{WANDERLUST}"
+    }
+    
