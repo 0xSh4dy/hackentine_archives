@@ -1,0 +1,9 @@
+{
+    "challengeName": "she be playin games with me",
+    "challengeDescription": "d4v1d's first girl at campus used to be overly intricate. He played clementine by grentperez on their first date to her and asked if she liked it or not. In reply, she used all her guile and sent him an audio message describing the music. Help d4v1d decode it. Dont forget to wrap the flag according to the format VULNTINE{}(case-sensitive)",
+    "minPoints": 100,
+    "maxPoints": 300,
+    "category": "misc", 
+    "flag": "VULNTINE{F41NTBU7L0VELY}",
+    "author": "d4v1d"
+}
