@@ -66,9 +66,9 @@ def pad(plaintext):
 iv=urandom(16) 
 def encrypt(plaintext):
     cipher = AES.new(key, AES.MODE_ECB)
-    return cipher.encrypt(pad(plaintext))
+    return cipher.encrypt(pad(plaintext).encode())
 
-encrypted_flag = encrypt(flag_p2.encode())
+encrypted_flag = encrypt(flag_p2)
 print("Looks like you encountered a hurdle. Pass it to get a chance to go on a candle light dinner with me. Wink! Wink!")
 print("But lemme give you the encrypted version of a part of the flag in hex: "+encrypted_flag.hex())
 print("Actions: 1. Encrypt 2. Check flag part 3. Exit")
@@ -76,7 +76,8 @@ while True:
     a = int(input("Enter action: "))
     if (a == 1):
         print("Enter the plaintext: ")
-        print("Here you go darling "+encrypt(input()))        
+        pt = input()
+        print("Here you go darling "+encrypt(pt).hex())        
     elif (a == 2):
         flag_ch = input("Enter flag part to be verified(as ascii string only): ")
         if (flag_ch == flag_p2):
