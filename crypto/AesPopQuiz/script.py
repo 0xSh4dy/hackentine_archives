@@ -104,7 +104,7 @@ def encrypt2(plaintext):
         plaintext += flag_p3[len(plaintext)]
     iv=urandom(16)
     cipher = AES.new(key, AES.MODE_CBC, iv)
-    ct = cipher.encrypt2(plaintext.encode())
+    ct = cipher.encrypt(plaintext.encode())
     return iv.hex()+ct.hex()
 
 def decrypt(ciphertext):
