@@ -1,0 +1,9 @@
+{
+    "challengeName": "secret message",
+    "challengeDescription": "I have a secret message, not everyone can read it. Can you?",
+    "minPoints": 80,
+    "maxPoints": 200,
+    "category": "misc", 
+    "flag": "Vulntine{h3re_1s_th3_s3cr3t_m3ss4ge_f0r_y0u}",
+    "author": "ph1ne4s"
+}
