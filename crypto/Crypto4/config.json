@@ -1,0 +1,9 @@
+{
+    "challengeName":"Valentine's Day Challenge - 02",
+    "challengeDescription" :"After receiving her message in part 1 of this challenge, I asked her for the place. This time she replied with a python script. Please help me to find the place. Don't forgot to wrap her message in Vulntine{}.",
+    "minPoints":50,
+    "maxPoints":200,
+    "category":"Cryptography",
+    "authorName": "c4pt41n",
+    "flag": "Vulntine{RU5T1C_H0U53}"
+}
