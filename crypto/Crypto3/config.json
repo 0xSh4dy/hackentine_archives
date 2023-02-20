@@ -1,0 +1,9 @@
+{
+    "challengeName":"Valentine's Day Challenge",
+    "challengeDescription" :"I asked my girlfriend out for Valentine's Day. She knows my interest and hence, responded with a picture that needs to be decoded. I'm dying to know what she said. Can you help me figure it out? Don't forgot to wrap her message in Vulntine{}.",
+    "minPoints":50,
+    "maxPoints":200,
+    "category":"Cryptography",
+    "authorName": "c4pt41n",
+    "flag": "Vulntine{YEAH!_I_WOULD_LOVE_TO}"
+}
