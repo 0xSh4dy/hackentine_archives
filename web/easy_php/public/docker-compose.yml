@@ -1,0 +1,7 @@
+version: '2'
+services:
+  easy_php:
+    build: .
+    container_name: easy_php
+    ports:
+      - 8011:80

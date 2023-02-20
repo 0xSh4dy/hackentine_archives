@@ -1,0 +1,9 @@
+{
+    "challengeName": "unzip_me",
+    "challengeDescription": "The unzip_me.zip file is no ordinary zip file - it has been encrypted with a complex password . But fear not, for you have been chosen to take on this challenge and prove your worth as a true password-cracking master!",
+    "minPoints": 100,
+    "maxPoints": 500,
+    "category": "misc", 
+    "flag": "Vulntine{J0hn_th3_r1pp3r_aerjyhiuerb2331}",
+    "author": "sh4dy"
+}

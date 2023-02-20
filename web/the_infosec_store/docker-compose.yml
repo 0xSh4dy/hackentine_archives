@@ -1,0 +1,7 @@
+version: '2'
+services:
+  hackentine:
+    build: .
+    ports:
+      - 8013:8013
+    container_name: the_infosec_store

@@ -1,0 +1,9 @@
+{
+    "challengeName": "struct_boi",
+    "challengeDescription": "Structs are cool, aren't they?",
+    "minPoints": 50,
+    "maxPoints": 200,
+    "category": "pwn",
+    "author": "sh4dy",
+    "flag": "Vulntine{s7ruc7_b0i_17_1s_huh}"
+}

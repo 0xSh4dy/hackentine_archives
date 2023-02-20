@@ -1,0 +1,7 @@
+version: '2'
+services:
+  web:
+    container_name: baby_sqli_0
+    ports:
+      - 8012:8012
+    build: .

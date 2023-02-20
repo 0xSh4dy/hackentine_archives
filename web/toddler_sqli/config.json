@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"toddler_sqli",
+    "challengeDescription" :"Although 0s4ma's ex-girlfriend had added filters to her website, n4utilus and cyb0rg attempted to bypass them and retrieve the stolen flag.",
+    "minPoints": 50,
+    "maxPoints": 600,
+    "category":"Web Exploitation",
+    "flag":"Vulntine{sql_1nj3c710n_f0r_b4b13s_21380214214}"
+}

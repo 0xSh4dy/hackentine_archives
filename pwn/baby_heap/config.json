@@ -1,0 +1,9 @@
+{
+    "challengeName": "baby_heap",
+    "challengeDescription": "Malloc is a highly skilled and dedicated professional who takes his work very seriously. While he may not be the life of the party, he is a vital and indispensable member of any programming team.",
+    "minPoints": 50,
+    "maxPoints": 1500,
+    "category": "pwn",
+    "author": "sh4dy",
+    "flag": "Vulntine{m4ll0c_m4l3f1c4rum_1_l0v3_m4ll0c_h3h3}"
+}

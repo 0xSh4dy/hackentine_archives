@@ -1,0 +1,9 @@
+{
+    "challengeName": "the_infosec_store",
+    "challengeDescription": "0s4ma is secretly selling some famous exploits on his site, including sin3point14's secrets. Are you rich enough to buy sin3point14's secrets?",
+    "minPoints": 50,
+    "maxPoints": 1000,
+    "category": "web",
+    "author": "sh4dy",
+    "flag": "Vulntine{burp_suite_ftw_1236437643754}"
+}

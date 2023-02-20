@@ -1,0 +1,9 @@
+{
+    "author":"sh4dy",
+    "challengeName":"baby_sqli",
+    "challengeDescription" :"Injections may sting for a second, but protection from illness is definitely worth it.",
+    "minPoints": 50,
+    "maxPoints": 500,
+    "category":"Web Exploitation",
+    "flag":"Vulntine{sql_1nj3c710n_f0r_b4b13s_21380214214}"
+}

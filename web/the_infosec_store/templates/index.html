@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Exploit Store</title>
+    <style>
+        .exploitBlock{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            column-gap: 1.5rem;
+            row-gap: 2rem;
+        }
+        #img1{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHRvBK3zwx6UJUC0L9ZE4T6Do6SIKax3h9eA&usqp=CAU");
+            min-height: 30vh;
+            min-width: 30vw;
+            background-repeat: no-repeat;
+        }
+        #img2{
+            background-image: url("https://www.greycampus.com/hubfs/Imported_Blog_Media/content_DOS_attack.bmp");
+            min-height: 30vh;
+            min-width: 30vw;
+            background-repeat: no-repeat;
+        }
+
+        #img4{
+            background-image: url("https://azeria-labs.com/wp-content/uploads/2019/03/bins-small.png");
+            min-height:30vh;
+            min-width: 30vw;
+            background-repeat: no-repeat;
+        }
+        #img5{
+            background-image: url("https://home.sophos.com/sites/default/files/2021-09/what-is-a-rootkit.jpeg");
+            min-height: 30vh;
+            min-width: 30vw;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Your balance: {{balance}}</h1>
+    <div class="exploitBlock">
+        <div>
+        <div id="img1"></div>
+        <div style="text-align:center">XSS Exploit($100)</div>
+        </div>
+        <div>
+            <div id="img2"></div>
+            <div >DoS via Buffer Overflow Exploit($1000)</div>
+        </div>
+
+        <div>
+            <div id="img4"></div>
+            <div style="text-align: center;">Heap Overflow Exploit($10000)</div>
+        </div>
+        <div>
+            <div id="img5"></div>
+            <div style="text-align: center;">Rootkit by n4utilus($50000)</div>
+        </div>
+        <div>
+            <div id="img6">
+                <img width="50%" height="50%" src="https://cdn.shopify.com/s/files/1/1375/4957/products/gift2.png"/>
+            </div>
+            <div style="text-align: center;">Sin3point14's surprise ($2000000)</div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+<hr>
+<h1>Enter your choice</h1>
+    <span>What do you wanna buy?</span>
+    <select id="selectOption">
+        <option value="XSS" id="xss">XSS Exploit ($100)</option>
+        <option value="DoS" id="dos">DoS Exploit ($1000)</option>
+        <option value="HeapOverflow">Heap Overflow Exploit ($10000)</option>
+        <option value="Rootkit">Rootkit by n4utilus ($50000)</option>
+        <option value="sin3point14's surprise">Sin3point14's surprise ($2000000)</option>
+    </select>
+    <button id="buy">Buy</button>
+    <button style="margin-left: 10px;" onclick="logout()">Logout</button>
+    
+    <script>
+        function logout(){
+            fetch("/logout").then((resp)=>{window.location.reload()})
+        }
+        let buyButton = document.getElementById("buy");
+        let options = document.getElementById("selectOption");
+        buyButton.addEventListener("click",()=>{
+            let choice = options.value;
+            let price;
+            if(choice=="XSS"){
+                price = 100;
+            }
+            else if(choice=="DoS"){
+                price = 1000;
+            }
+            else if(choice=="HeapOverflow"){
+                price = 10000;
+            }
+            else if(choice=="Rootkit"){
+                price = 50000;
+            }
+            else if(choice=="sin3point14's surprise"){
+                price = 2000000;
+            }
+            fetch('/buy',{
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify({
+                    choice:choice,
+                    price:price
+                })
+            }).then(response=>response.text()).then((data)=>{
+                alert(data);
+                window.location.reload();
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "challengeName": "docy_boi",
+    "challengeDescription": "Professor Pouncey has hidden his secret flags inside this Microsoft Word (docx) file, are you sneaky enough to get the secrets?",
+    "minPoints": 50,
+    "maxPoints": 300,
+    "category": "misc", 
+    "flag": "Vulntine{y0u_f0und_m3_hehe_n1c3}",
+    "author": "sh4dy"
+}
